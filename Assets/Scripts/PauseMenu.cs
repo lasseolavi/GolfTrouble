@@ -68,7 +68,7 @@ public class PauseMenu : MonoBehaviour
 
         RuntimeUi.MakeText(overlay.transform, "PAUSED", 72, new Vector2(0, 170));
         RuntimeUi.MakeButton(overlay.transform, "Resume", new Vector2(0, 40), () => SetPaused(false));
-        RuntimeUi.MakeButton(overlay.transform, "Restart Level  (R)", new Vector2(0, -55), RestartLevel);
+        RuntimeUi.MakeButton(overlay.transform, "Restart Level", new Vector2(0, -55), RestartLevel);
         RuntimeUi.MakeButton(overlay.transform, "Main Menu", new Vector2(0, -150), GoToMenu);
 
         overlay.SetActive(false);

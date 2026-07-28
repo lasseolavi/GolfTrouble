@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clubName: Putter
   launchAngle: 3
-  powerMultiplier: 1.5
-  maxDragDistance: 3
+  powerMultiplier: 1.8
+  maxDragDistance: 4
   color: {r: 0.25587398, g: 0.31037667, b: 0.4716981, a: 1}
   length: 2

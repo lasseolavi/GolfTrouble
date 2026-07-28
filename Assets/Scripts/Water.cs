@@ -7,7 +7,7 @@ public class Water : MonoBehaviour
         BallController ball = other.GetComponent<BallController>();
         if (ball == null) return;
 
-        SfxPlayer.PlayHit(other.transform.position, 0.7f, 0.6f); // low pitch = splash-ish
+        SfxPlayer.PlayHit(other.transform.position, 0.7f, 0.3f); // low pitch = splash-ish
         ball.ResetToLastShot();
         if (GameManager.Instance != null) GameManager.Instance.AddStroke(); // penalty
     }

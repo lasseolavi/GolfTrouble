@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wedge
   m_EditorClassIdentifier: 
   clubName: Wedge
-  launchAngle: 55
+  launchAngle: 65
   powerMultiplier: 3
   maxDragDistance: 5
   color: {r: 0.85866857, g: 0.9056604, b: 0.90271515, a: 1}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BoostPad : MonoBehaviour
 {
     public Vector2 direction = Vector2.right;
-    public float targetSpeed = 22f;
+    public float targetSpeed = 25f;
 
     void OnTriggerStay2D(Collider2D other)
     {
